@@ -1,5 +1,6 @@
 package com.control;
 
+
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -36,7 +37,8 @@ public class BusServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+		//its working
+		//its not working
 		
 		// TODO Auto-generated method stub
 		doGet(request, response);
